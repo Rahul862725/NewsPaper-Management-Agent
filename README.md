@@ -21,3 +21,5 @@
            Feature show the total revenue and total no of purchased newspaper till current data collected by system. And Manger can predict some information by uploading 
            data on excel file. Manager can predict that how many newspaper organization will purcahase so that they can earn x revenu or vice versa. Their are other 
            functionality alos exist in them.
+           
+    Tehcnology use in Desktop Application phase are JAVA, JDBC, MACHNE LEARNING, JAVAFX etc.
