@@ -5,8 +5,8 @@
  
    There are two general part of this project. (i). Web Application  (ii). Desktop Application
  # 1. Web Application
-      Web application is the first part of my application. This phase of my project help to user to download the actual project that manage Newspaper. User can easily
-      access this project by login on this phase. This phase develop on web technology.
+      Web application is the first part of my application. This phase of my project help to user to download the actual project that manage Newspaper. 
+      User can easily access this project by login on this phase. This phase develop on web technology.
 # 2. Desktop Application 
        Web application phase help user to download my project on their desktop. From their user can run project on their desktop. Desktop Apllication phase is the actual 
      project. There are many part of this desktop application that help to manage the newspaper. (To know more access the whole project).
