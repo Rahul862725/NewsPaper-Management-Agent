@@ -1,5 +1,4 @@
-# NewsPaper-Management-Agent
-   NewsPaper Management Agent Project help newspapaer Organizations to manage interaction between user and organization. It also manage the company work and help 
+# NewsPaper-Management-Agent: NewsPaper Management Agent Project help newspapaer Organizations to manage interaction between user and organization. It also manage the company work and help 
  a lot to the Organiztions. This project do various management of newspaper and hawker with customers automaticaly. This project make for the company manager.
    There are two general part of this project. (i). Web Application  (ii). Desktop Application
  # 1. Web Application
