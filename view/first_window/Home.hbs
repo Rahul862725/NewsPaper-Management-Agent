@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>NewsPaper Agecny Assistent</title>
+</head>
+<!-- background-color: rgb(41, 40, 40); color: white; -->
+
+<body>
+    <div style="position: relative;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">NewsPaper</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/first_window/About">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/first_window/Download" style="pointer-events: none">Download</a>
+                        </li>
+                    </ul>
+                    <div style="position: absolute; right: 20px;">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="/first_window/login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/first_window/signup">Signup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src={{Cpick.[1]}} class="d-block w-100" alt="..." height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Newspaper Give Current Information</h5>
+                    <p> Today also Many People like Newspaper</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src={{Cpick.[2]}} class="d-block w-100" alt="..." height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Technology VS Newspaper</h5>
+                    <p>Newspaper give very effective knowledge compare to tech knowledge</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src={{Cpick.[0]}} class="d-block w-100" alt="..." height="500px">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Newspaper Management</h5>
+                    <p>Distribution of newspaper must be managed in effective way</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="contaier" style="margin-left:250px;">
+        <div class="container my-5">
+            <div class="row">
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4" style="margin-right:150px;">
+                    <svg width="600" height="300">
+                        <defs>
+                            <clipPath id="circleView">
+                                <circle cx="150" cy="125" r="120" fill="#FFFFFF" />
+                            </clipPath>
+                        </defs>
+                        <image width="300" height="250" xlink:href={{Cpick.[3]}} clip-path="url(#circleView)" />
+                    </svg>
+
+                    <h2>WikiPedia</h2>
+                    <p>A newspaper is a periodical publication containing written information about current events and
+                        is often typed in black ink with a white or gray background...</p>
+                    <p><a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Newspaper" target="_blank">View
+                            details »</a>
+                    </p>
+                </div><!-- /.col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <svg width="600" height="300">
+                        <defs>
+                            <clipPath id="circleView">
+                                <circle cx="150" cy="125" r="120" fill="#FFFFFF" />
+                            </clipPath>
+                        </defs>
+                        <image width="300" height="250" xlink:href={{Cpick.[4]}} clip-path="url(#circleView)" />
+                    </svg>
+
+                    <h2>Edward R. Murrow</h2>
+                    <p>Most of us probably feel we couldn't be free without newspapers, and that is the real reason
+                        we want newspapers to be free...</p>
+                    <p><a class="btn btn-secondary" href="https://www.britannica.com/biography/Edward-R-Murrow"
+                            target="_blank">View
+                            details »</a></p>
+                </div><!-- /.col-lg-4 -->
+
+            </div>
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-4" style="margin-right:150px;">
+                        <svg width="600" height="300">
+                            <defs>
+                                <clipPath id="circleView">
+                                    <circle cx="150" cy="125" r="120" fill="#FFFFFF" />
+                                </clipPath>
+                            </defs>
+                            <image width="300" height="250" xlink:href={{Cpick.[5]}} clip-path="url(#circleView)" />
+                        </svg>
+
+                        <h2>Richard Kluger</h2>
+                        <p>Every time a newspaper dies, even a bad one, the country moves a little closer to
+                            authoritarianism...</p>
+                        <p><a class="btn btn-secondary" href="https://richardkluger.com/phone/the-paper.html"
+                                target="_blank">View
+                                details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <svg width="600" height="300">
+                            <defs>
+                                <clipPath id="circleView">
+                                    <circle cx="150" cy="125" r="110" fill="#FFFFFF" />
+                                </clipPath>
+                            </defs>
+                            <image width="300" height="300" xlink:href={{Cpick.[6]}} clip-path="url(#circleView)" />
+                        </svg>
+
+                        <h2>Will Rogers</h2>
+                        <p>I read about eight newspapers in a day. When I’m in a town with only one newspaper, I read it
+                            eight times...</p>
+                        <p><a target="_blank" class="btn btn-secondary"
+                                href="https://quotefancy.com/quote/933075/Will-Rogers-I-read-about-eight-newspapers-in-a-day-When-I-m-in-a-town-with-only-one">View
+                                details »</a></p>
+                    </div><!-- /.col-lg-4 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: black; color: white">
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-2">
+                        <h5>Social</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href={{Clinkedin}}
+                                    class="nav-link p-0 text-muted active">Linkedin</a></li>
+                            <li class="nav-item mb-2"><a href={{Cinstagram}}
+                                    class="nav-link p-0 text-muted">Instagram</a></li>
+                            <li class="nav-item mb-2"><a href={{Cfacebook}} class="nav-link p-0 text-muted">Facebook</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href={{Ctelegram}} class="nav-link p-0 text-muted">Telegram</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-8">
+                        <h1 style=" position: absolute; right:250px;">Let's Work <br> Together.</h1>
+                    </div>
+                    <!-- <div class="col-4 offset-1">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of whats new and exciting from us.</p>
+                <div class="d-flex w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div> -->
+
+                    <div class="d-flex justify-content-between py-4 my-4 border-top">
+                        <p>© 2022 PTI-Press Trust of India, Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                        <use xlink:href="#twitter"></use>
+                                    </svg></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                        <use xlink:href="#instagram"></use>
+                                    </svg></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                                        <use xlink:href="#facebook"></use>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+            </footer>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
