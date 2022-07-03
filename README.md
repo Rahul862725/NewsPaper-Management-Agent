@@ -8,8 +8,9 @@
       Web application is the first part of my application. This phase of my project help to user to download the actual project that  
       manage Newspaper. User can easily access this project by login on this phase. This phase develop on web technology.
 # 2. Desktop Application 
-       Web application phase help user to download my project on their desktop. From their user can run project on their desktop. Desktop Apllication phase is the actual 
-     project. There are many part of this desktop application that help to manage the newspaper. (To know more access the whole project).
+       Web application phase help user to download my project on their desktop. From their user can run project on their  
+      desktop. Desktop Apllication phase is the actual project. There are many part of this desktop application  
+      that help to manage the newspaper. (To know more access the whole project).
     (i).Paper Master: Paper Master manage all the newspaper of agency. The manager of company can ADD, DELETE, UPDATE the newspaper with their prices.
     (ii). Customer Manager:  Customer manager manage all the customer related task. The manager can ADD, DELETE, UPDATE their customer detail with the intersted papers 
            and assign hawekr to the customer.
